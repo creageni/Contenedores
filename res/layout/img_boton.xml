@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/img_margin" 
+    android:gravity="center"
+    >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/color_rojo"
+	        android:layout_width="@dimen/imgwh"
+	        android:layout_height="@dimen/imgwh"
+	        android:src="@color/rojo"
+	        android:layout_marginRight="@dimen/img_margin"
+	        android:onClick="setRojo"	        
+	        />
+	    <ImageView 
+	        android:id="@+id/color_verde"
+	        android:layout_width="@dimen/imgwh"
+	        android:layout_height="@dimen/imgwh"
+	        android:src="@color/verde"
+	        android:layout_marginRight="@dimen/img_margin"
+	        android:onClick="setVerde"
+	        />
+	    <ImageView 
+	        android:id="@+id/color_violeta"
+	        android:layout_width="@dimen/imgwh"
+	        android:layout_height="@dimen/imgwh"
+	        android:src="@color/violeta"
+	        android:onClick="setVioleta"
+	        />
+	    
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/txt_nombre_color"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:textSize="@dimen/txt_size"
+	    android:gravity="center"
+	    android:text="@string/txt_color"
+	    android:layout_marginTop="@dimen/img_margin"	    
+	    />
+    
+</LinearLayout>

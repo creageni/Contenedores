@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:layout_width="@dimen/imgwh1"
+        android:layout_height="@dimen/imgwh1"
+        android:src="@color/azul"
+        />
+    
+    <ImageView 
+        android:layout_width="@dimen/imgwh2"
+        android:layout_height="@dimen/imgwh2"
+        android:src="@color/naranaja"
+        />
+    
+    <ImageView 
+        android:layout_width="@dimen/imgwh3"
+        android:layout_height="@dimen/imgwh3"
+        android:src="@color/rojo"
+        />
+
+</FrameLayout>
